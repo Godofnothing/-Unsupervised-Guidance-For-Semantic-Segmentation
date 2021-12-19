@@ -1,0 +1,4 @@
+usage: make smoother ground masks [--annotation_dir ANNOTATION_DIR]
+                                  [--closure_kernel_size CLOSURE_KERNEL_SIZE]
+                                  [--opening_kernel_size OPENING_KERNEL_SIZE]
+make smoother ground masks: error: unrecognized arguments: --num_clusters 21

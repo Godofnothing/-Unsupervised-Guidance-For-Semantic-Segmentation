@@ -12,6 +12,6 @@ ROOT_DIR=/trinity/home/d.kuznedelev/Datasets/Intel_Image_Classification
 source /home/${USER}/.bashrc
 source activate mmlab
 
-python kNNRelabeling.py \
+python kMeansRelabeling.py \
     --annotation_dir ${ROOT_DIR}/annotations \
     --num_clusters 40 

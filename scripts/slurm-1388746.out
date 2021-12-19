@@ -1,0 +1,6 @@
+Collecting clusters on the training dataset
+----------
+Traceback (most recent call last):
+  File "PascalVOCMaskProcessing.py", line 35, in <module>
+    for file_name in os.listdir(args.annotation_dir):
+FileNotFoundError: [Errno 2] No such file or directory: '/trinity/home/d.kuznedelev/Datasets/VOCdevkit/VOC2012/annotations'

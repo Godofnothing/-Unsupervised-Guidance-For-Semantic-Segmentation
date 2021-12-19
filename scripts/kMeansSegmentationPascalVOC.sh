@@ -12,8 +12,8 @@ DATA_DIR=/trinity/home/d.kuznedelev/Datasets/VOCdevkit/VOC2012
 source /home/${USER}/.bashrc
 source activate mmlab
 
-python kNNSegmentationPascalVOC.py \
+python kMeansSegmentationPascalVOC.py \
     --data_dir ${DATA_DIR} \
     --num_clusters 6 \
     --attempts 10 \
-    --annotation_dir ${DATA_DIR}/kNNannotations
+    --annotation_dir ${DATA_DIR}/kMeans_annotations

@@ -12,7 +12,7 @@ ROOT_DIR=/trinity/home/d.kuznedelev/Datasets/Intel_Image_Classification
 source /home/${USER}/.bashrc
 source activate mmlab
 
-python kNNSegmentation.py \
+python kMeansSegmentation.py \
     --train_dir ${ROOT_DIR}/seg_train/seg_train \
     --test_dir ${ROOT_DIR}/seg_test/seg_test \
     --num_clusters 5 \

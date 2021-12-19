@@ -13,7 +13,7 @@ source /home/${USER}/.bashrc
 source activate mmlab
 
 python PascalVOCMaskProcessing.py \
-    --annotation_dir ${DATA_DIR}/kNNannotations \
+    --annotation_dir ${DATA_DIR}/kMeans_annotations \
     --num_clusters 21 \
     --closure_kernel_size 5 \
     --opening_kernel_size 5
