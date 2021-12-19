@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "kNNSegmentationPascalVOC.py", line 48, in <module>
-    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-cv2.error: OpenCV(4.5.3) /tmp/pip-req-build-l1r0y34w/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
-

@@ -1,9 +1,0 @@
-Collecting clusters on the training dataset
-----------
-Fitting K-Means algorithm
-----------
-Traceback (most recent call last):
-  File "PascalVOCMaskProcessing.py", line 63, in <module>
-    segm_closure = cv2.morphologyEx(segm, cv2.MORPH_CLOSE, closure_kernel)
-cv2.error: OpenCV(4.5.3) /tmp/pip-req-build-l1r0y34w/opencv/modules/imgproc/src/morph.simd.hpp:841: error: (-213:The function/feature is not implemented) Unsupported data type (=4) in function 'getMorphologyFilter'
-
